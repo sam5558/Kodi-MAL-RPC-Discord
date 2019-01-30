@@ -12,7 +12,7 @@ def test():
     #print(testfile)
     #print(tf)
 
-    client_id = '539878243386261505' 
+    client_id = '539878242383241505' #change the cliend_id with your developper apps id.
     RPC = Presence(client_id)  # Initialize the client class
     RPC.connect() # Start the handshake loop
     #
