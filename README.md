@@ -5,6 +5,9 @@ Do you want a simple python script that'll give your discord community an idea a
 Right now this script has been tested only in linux with Python 3.6+, any environment other than this one hasn't been tested.
 You also need to know that i've targeted only **TV SHOWS**, still didn't have time to work on **Movies** section, **Live TV** or **Music** :( 
 
+[![pypresence](https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logoWidth=20)](https://github.com/qwertyquerty/pypresence)
+
+
 # Prerequisites
 
 You need to :
