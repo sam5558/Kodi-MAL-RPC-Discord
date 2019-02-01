@@ -18,7 +18,7 @@ You need to :
 * Enable your web UI in Kodi (basically your 8080 port as it is done by adding a web interface for Kodi) 
 * Play your content in **TV SHOWS**
 * execute the script ```
-python3.5 UpdateStatus.py```
+python3.6 UpdateStatus.py```
 
 # Enjoy
 
