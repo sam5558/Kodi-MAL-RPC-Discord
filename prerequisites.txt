@@ -1,0 +1,4 @@
+objectpath
+pypresence
+setuptools
+requests
