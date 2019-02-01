@@ -8,15 +8,16 @@ You also need to know that i've targeted only **TV SHOWS**, still didn't have ti
 # Prerequisites
 
 You need to :
-* Install Python3.6+
-* Install python dependencies (pip -i dependencies.txt)
-* Discord Desktop app should be installed and running
+* Install Python3.6+.
+* Install python dependencies (pip -i dependencies.txt).
+* Discord Desktop app should be installed and running.
+* Create your own application in the [DEVELOPER PORTAL](https://discordapp.com/developers/applications/), you can customize your app there (add image, icons, ...).
 
 # How to use it
 
-* Create your own application in the [DEVELOPER PORTAL](https://discordapp.com/developers/applications/), you can customize your app there (add image, icons, ...)
-* Enable your web UI in Kodi (basically your 8080 port as it is done by adding a web interface for Kodi) 
-* Play your content in **TV SHOWS**
+* Grab your app Client-id and override the following line : ```client_id = '539878243386261505' ``` with your client-id.
+* Enable your web UI in Kodi (basically your 8080 port as it is done by adding a web interface for Kodi).
+* Play your content in **TV SHOWS**.
 * execute the script ```
 python3.6 UpdateStatus.py```
 
