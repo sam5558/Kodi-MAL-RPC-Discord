@@ -27,7 +27,7 @@ def test():
     epoch_time = int(time.time())
     temps = time.strftime("%M:%S", time.localtime(dura))
     #print(RPC.update(large_image='thumbnail-dark', state=Sho, details='S'+str(Sea)+'E'+str(Epp)+ '-' + str(lab) +' ('+str(temps)+')',start = 1,end=dura/1000))
-    print(RPC.update(large_image='thumbnail-dark', state=Sho, details='S'+str(Sea)+'E'+str(Epp)+ '-' + str(lab),start = epoch_time + 1,end=epoch_time + dura))
+    print(RPC.update(large_image='thumbnail-dark', state=Sho, details='S'+str(Sea)+'E'+str(Epp)+ '-' + str(lab),start = epoch_time))
 while True:
     test()
     time.sleep(60)
