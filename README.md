@@ -1,6 +1,6 @@
 # Kodi-RPC-Discord
 
-Do you want a simple python script that'll give your discord community an idea about what show you're watching ? If the answer is yes you're on the right place.
+Do you want a simple python script that'll give your discord community an idea about what show you're watching in Kodi ? If the answer is yes you're on the right place.
 
 Right now this script has been tested only in linux with Python 3.5+, any environment other than this one hasn't been tested.
 You also need to know that i've targeted only **TV SHOWS**, still didn't have time to work on **Movies** section, **Live TV** or **Music** :( 
