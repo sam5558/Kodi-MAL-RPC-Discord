@@ -24,6 +24,11 @@ You need to :
 * execute the script ```
 python3.6 UpdateStatus.py```
 
+# Screenshot
+
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+
+
 # Enjoy
 
 If you like this content you're welcome to watch, star or fork ;)
