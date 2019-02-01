@@ -26,7 +26,7 @@ python3.6 UpdateStatus.py```
 
 # Screenshot
 
-![Alt text](Screenshot-uploaded.png?raw=true "Optional Title")
+![Alt text](Screenshot-uploaded.png?raw=true "Happy Update !")
 
 
 # Enjoy
