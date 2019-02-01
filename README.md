@@ -18,7 +18,7 @@ You need to :
 
 # How to use it
 
-* Grab your app Client-id and override the following line : ```client_id = '539878243386261505' ``` with your client-id.
+* Grab your app Client-id and override the following line : ```client_id = '539478243386261505' ``` with your client-id.
 * Enable your web UI in Kodi (basically your 8080 port as it is done by adding a web interface for Kodi).
 * Play your content in **TV SHOWS**.
 * execute the script ```
