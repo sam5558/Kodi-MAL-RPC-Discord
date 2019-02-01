@@ -12,7 +12,7 @@ def test():
     #print(testfile)
     #print(tf)
 
-    client_id = '539878242383241505' #change the cliend_id with your developper apps id.
+    client_id = '539878243386261505' 
     RPC = Presence(client_id)  # Initialize the client class
     RPC.connect() # Start the handshake loop
     #
@@ -22,12 +22,18 @@ def test():
     season = tuple(data_tree.execute('$..season'))
     show = tuple(data_tree.execute('$..showtitle'))
     label = tuple(data_tree.execute('$..label'))
+    dur = tuple(data_tree.execute('$..duration'))
     #
     Epp = int(ep[0])
     Sea = int(season[0])
     Sho = ''.join(show)
     lab  = ''.join(label)
-    print(RPC.update(state=Sho, details='S'+str(Sea)+'E'+str(Epp)+ '-' + str(lab)))
+    dura = int(dur[0])
+    temps = time.strftime("%M:%S", time.localtime(dura))
+    #print(RPC.update(state=Sho, details='S'+str(Sea)+'E'+str(Epp)+ '-' + str(lab)))
+    #print(dura)
+    #print(temps)
+    print(RPC.update(large_image='thumbnail-dark', state=Sho, details='S'+str(Sea)+'E'+str(Epp)+ '-' + str(lab) +' ('+str(temps)+')'))
     #      time.sleep(60.0 - ((time.time() - starttime) % 60.0))
 
 while True:
