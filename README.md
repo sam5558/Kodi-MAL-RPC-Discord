@@ -8,7 +8,7 @@ You also need to know that i've targeted only **TV SHOWS**, still didn't have ti
 # Prerequisites
 
 You need to :
-* Install Python3.5+
+* Install Python3.6+
 * Install python dependencies (pip -i dependencies.txt)
 * Discord Desktop app should be installed and running
 
