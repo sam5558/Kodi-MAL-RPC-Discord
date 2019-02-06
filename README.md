@@ -18,14 +18,13 @@ You need to :
 
 # How to use it
 If you want the version without MyAnimelist Statistics support in Rich Presence download `UpdateStatus.py`, else download `UpdateStatuswithMyAnimeList.py`
-# Variables 
 
 * Grab your app Client-id and override myclientid variable in the following line : ```client_id = 'mysecretid'``` with your client-id.
 * Replace myusername in python script : `username = 'myusername'` with your MyAnimeList Username (If you use UpdateStatuswithMyAnimeList.py)
 * Enable your web UI in Kodi (basically your 8080 port as it is done by adding a web interface for Kodi).
 * Play your content in **TV SHOWS**.
-* execute the script ```
-python3.6 UpdateStatus.py```
+* execute the script ```python3.6 UpdateStatus.py``` (or ```python3.6 UpdateStatus.py &``` to run in background mode
+* To kill your script ```kill -9 mypid``` (mypid is the pid's script whenever it's run in the background)
 
 # Screenshot
 
