@@ -4,10 +4,11 @@ import json
 import objectpath
 import urllib.request
 
+# Variables
+client_id = 'myclientid' 
+
 def test():
     rp = urllib.request.urlretrieve("http://127.0.0.1:8080/jsonrpc?request={%20%22jsonrpc%22:%20%222.0%22,%20%22method%22:%20%22Player.GetItem%22,%20%22params%22:%20{%20%22properties%22:%20[%20%22title%22,%20%22album%22,%20%22artist%22,%20%22season%22,%20%22episode%22,%20%22duration%22,%20%22showtitle%22,%20%22tvshowid%22,%20%22thumbnail%22,%20%22file%22,%20%22fanart%22,%20%22streamdetails%22%20],%20%22playerid%22:%201%20},%20%22id%22:%20%22VideoGetItem%22%20}", "kodi.json")
-
-    client_id = '539478243386261505' 
     RPC = Presence(client_id)  # Initialize the client class
     RPC.connect() # Start the handshake loop
     #
